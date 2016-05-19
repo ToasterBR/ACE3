@@ -17,10 +17,10 @@ class CfgPatches {
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
-#include "CFgSounds.hpp"
+#include "CfgSounds.hpp"
+#include "CfgEden.hpp"
 #include "ACE_Medical_Treatments.hpp"
 #include "ACE_Settings.hpp"
 #include "UI\CfgInGameUI.hpp"
 #include "UI\RscTitles.hpp"
 #include "UI\triagecard.hpp"
-
