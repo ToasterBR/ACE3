@@ -24,11 +24,11 @@ if ((isNull ACE_player) || {!alive ACE_player} || {!isNull (findDisplay 49)}) ex
 
 // Determine flags from current settings
 private _drawName = true;
-private _drawRank = GVAR(showPlayerRanks);
+private _drawRank = GVAR(showRanks);
 private _enabledTagsNearby = false;
 private _enabledTagsCursor = false;
 private _onKeyPressAlphaMax = 1;
-switch (GVAR(showPlayerNames)) do {
+switch (GVAR(showNames)) do {
     case 0: {
         // Player names Disabled
         _drawName = false;

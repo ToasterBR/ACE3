@@ -25,7 +25,7 @@ call FUNC(updateSettings);
 ["CBA_SettingChanged", {
     params ["_setting"];
 
-    if (_setting == QGVAR(showPlayerNames)) then {
+    if (_setting == QGVAR(showNames)) then {
         call FUNC(updateSettings);
     };
 }] call CBA_fnc_addEventHandler;
