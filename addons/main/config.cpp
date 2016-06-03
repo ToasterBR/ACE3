@@ -565,7 +565,8 @@ class CfgPatches {
             "cba_ui",
             "cba_xeh",
             "cba_xeh_a3",
-            "cba_jr"
+            "cba_jr",
+            "cba_settings"
         };
         author = ECSTRING(common,ACETeam);
         url = CSTRING(URL);

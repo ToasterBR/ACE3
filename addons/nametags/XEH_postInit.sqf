@@ -20,12 +20,3 @@ GVAR(showNamesTime) = -10;
 }, {false}, [29, [false, false, false]], false] call CBA_fnc_addKeybind; //LeftControl Key
 
 call FUNC(updateSettings);
-
-// Change settings accordingly when they are changed
-["CBA_SettingChanged", {
-    params ["_setting"];
-
-    if (_setting == QGVAR(showNames)) then {
-        call FUNC(updateSettings);
-    };
-}] call CBA_fnc_addEventHandler;

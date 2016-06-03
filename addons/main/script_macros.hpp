@@ -203,8 +203,3 @@
 #endif
 
 #include "script_debug.hpp"
-
-// cba settings framework
-#define CLIENT_SETTING 1
-#define SERVER_SERVER 2
-#define MISSION_SERVER 4
